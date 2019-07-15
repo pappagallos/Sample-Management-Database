@@ -1,0 +1,43 @@
+/* google web font */
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+
+/* login page style */
+html, body { padding: 0; margin: 0; height: 100%; background-image: url('../img/smdb_login_bg.png'); min-height: 100%; background-position: center; background-size: cover; letter-spacing: -.1em; }
+
+.login-frame { position: absolute; top: 50%; margin-top: -165px; width: 100%; height: 310px; text-align: center; }
+.login-frame .smdb-logo { margin-bottom: 20px; width: auto; height: 57px; max-width: auto; max-height: 57px; }
+.login-frame input[type="text"], input[type="password"] { font-family: 'Nanum Gothic', sans-serif; width: 70%; padding: 10px; font-size: 1.5rem; margin-bottom: 10px; border-radius: 0; border: 1px solid rgb(255, 255, 255);  background-color: rgba(255, 255, 255, 0.7); }
+.login-frame .btn-login { font-family: 'Nanum Gothic', sans-serif; letter-spacing: -.1em; background-color: rgba(36, 105, 125, 0.9); color: #fff; width: 75%; padding: 18px; border: 0; font-size: 1rem; margin-bottom: 10px; }
+.login-frame .btn-join { font-family: 'Nanum Gothic', sans-serif; letter-spacing: -.1em; background-color: rgba(49, 49, 49, 0.9); color: #fff; width: 75%; padding: 18px; border: 0; font-size: 1rem; }
+
+.signup-table-form { position: absolute; top: 0; left: 0; z-index: 9; background-color: rgba(0, 0, 0, 0.7); width: 100%; height: 100%; display: none; }
+.signup-table-form .form { position: relative; top: 50%; margin: 0 auto; margin-top: -150px; background-color: #fff; width: 85%; height: 280px; box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.4); padding: 15px;}
+.signup-table-form .data-form { position: relative; top: 3%; margin: 0 auto; background-color: #fff; width: 85%; height: 90%; box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.4); padding: 15px; }
+.signup-table-form .form .select-box,
+.signup-table-form .data-form .select-box { width: 100%; text-align: center; padding-top: 15px; }
+.signup-table-form .form .input,
+.signup-table-form .data-form .input { margin-top: 10px; margin-bottom: 20px; }
+.signup-table-form .form .title,
+.signup-table-form .data-form .title { font-family: 'Nanum Gothic', sans-serif; font-size: 1.2rem;  margin-bottom: 30px; }
+
+.signup-table-form .form .input span,
+.signup-table-form .data-form .input span { font-family: 'Nanum Gothic', sans-serif; color: rgb(117, 117, 117);  font-size: .8rem; }
+.signup-table-form .form .input input[type="text"],
+.signup-table-form .data-form .input input[type="text"],
+.signup-table-form .form .input input[type="password"],
+.signup-table-form .data-form .input input[type="password"],
+.signup-table-form .form .input textarea,
+.signup-table-form .data-form .input textarea,
+.signup-table-form .form .input input[type="number"],
+.signup-table-form .data-form .input input[type="number"] { width: 100%; padding: 10px 0px 10px 0px; border: 0; border-bottom: 2px solid rgb(38, 79, 155); font-size: 1rem; margin-bottom: 5px; font-family: 'Nanum Gothic', sans-serif; }
+
+.signup-table-form .form .btn-create,
+.signup-table-form .data-form .btn-create { position: absolute; right: 0; bottom: 0; background-color: rgb(38, 79, 155); text-align: center; padding: 20px 0 20px 0; font-family: 'Nanum Gothic', sans-serif; width: 50%; color: #fff; font-size: 1rem;  border: none; cursor: pointer; margin: 0; }
+
+.signup-table-form .form .btn-cancle,
+.signup-table-form .data-form .btn-cancle { position: absolute; left: 0; bottom: 0; background-color: rgb(155, 38, 38); text-align: center; padding: 20px 0 20px 0; font-family: 'Nanum Gothic', sans-serif; width: 50%; color: #fff; font-size: 1rem;  }
+
+.signup-table-form .data-form .input span { font-family: 'Nanum Gothic', sans-serif; color: rgb(117, 117, 117);  font-size: .8rem; }
+
+.agree input[type="checkbox"] { width: 20px; height: 20px; }
+.agree span { position: relative; left: 2px; top: -6px; }

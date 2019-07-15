@@ -1,0 +1,3 @@
+html, body { letter-spacing: -.1em; }
+.database-screen .tab .tab-title { letter-spacing: -.1em !important; }
+.database-screen .data-td-style .date { letter-spacing: -.06em; }

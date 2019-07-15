@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+
+/* all style */
+#element::-webkit-scrollbar { display: none; }
+html, body { width: 100%; height: 100%; padding: 0; margin: 0; font-family: 'Nanum Gothic', sans-serif; overflow-x: hidden; }
+table { width: 100%; height: 100%; border-spacing: 0px 0px; border-collapse: collapse; table-layout: fixed; }
+table td { vertical-align: top; border: 1px solid rgb(240, 240, 240); padding: 2px; table-layout:fixed; word-break: break-all; }
+a { color: #000; text-decoration: none; }
+
+/* TableForm.php style */
+.database-menu { position: relative; width: 100%; height: 30px; padding: 5px 10px 10px 10px; border-bottom: 1px solid rgb(228, 228, 228); margin-top: 5px; margin-bottom: 10px; }
+.database-screen .search-tab { margin-bottom: 10px; }
+.database-screen { position: relative; max-width: 95%; max-height: 87%; height: 87%; text-align: center; vertical-align: middle; margin: 0 auto; padding-left: 10px; padding-right: 10px; }
+.database-screen .make { float: left; margin: 10px; width: 100%; height: 200px; border: 1px solid rgb(211, 211, 211); border-radius: 10%; }
+.database-screen .box-table { position: relative; width: 100%; }
+.database-screen .box-table .box { float: left; width: 48%; height: 150px; border-radius: 10px; box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2); margin: 5px; }
+.database-screen .first-data-td-style { vertical-align: middle; text-align: center; font-size: .4rem; width: 10px; max-width: 10%; max-height: 11%; }
+.database-screen .data-td-style { font-size: .5rem; max-height: 11%; height: 11%; cursor: pointer; }
+.database-screen .data-td-style .data-name { width: 100%; height: 100%; overflow: hidden; text-align: left; }
+.database-screen .data-td-style .name { letter-spacing: 0; }
+
+/* Database.php style */
+.database-screen .tab { position: relative; width: 100%; height: 80px; border-bottom: 1px solid rgb(245, 245, 245); margin-top: 10px; }
+.database-screen .tab .tab-title { text-align: left; margin: 10px; font-size: .5rem; font-family: 'Nanum Gothic', sans-serif;  color: rgb(116, 116, 116); }
+.database-screen .tab .user-information .picture { position: absolute; top: 5px; left: 5px; width: 60px; height: 60px; overflow: hidden; border-radius: 20%; background-size: cover; background-position: center; }
+.database-screen .tab .name { position: absolute; top: 16px; left: 75px; font-size: 1rem; font-family: 'Nanum Gothic', sans-serif;  }
+.database-screen .tab .discript { position: absolute; top: 38px; left: 75px; font-size: .7rem; font-family: 'Nanum Gothic', sans-serif;  color: rgb(145, 145, 145); }
+
+/* Database.php ALERT style */ 
+.create-table-form { position: absolute; top: 0; left: 0; z-index: 9; background-color: rgba(0, 0, 0, 0.7); width: 100%; height: 100%; display: none; }
+.create-table-form .form { position: relative; top: 50%; margin: 0 auto; margin-top: -150px; background-color: #fff; width: 85%; height: 280px; box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.4); padding: 15px;}
+.create-table-form .data-form { position: relative; top: 3%; margin: 0 auto; background-color: #fff; width: 85%; height: 90%; box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.4); padding: 15px; }
+.create-table-form .form .select-box,
+.create-table-form .data-form .select-box { width: 100%; text-align: center; padding-top: 15px; }
+.create-table-form .form .input,
+.create-table-form .data-form .input { margin-top: 10px; margin-bottom: 20px; }
+
+/* footer menu style */
+.footer-menu { position: fixed; bottom: 0; left: 0; width: 100%; height: 50px; border-top: 1px solid rgb(228, 228, 228); background-color: rgb(250, 250, 250); }
+.footer-menu i { font-size: 2rem; }
+.footer-menu .create-menu { position: absolute; left: 0; width: 50%; height: 50px; text-align: center; background-color: rgb(250, 250, 250); color: rgb(117, 117, 117); border-right: 1px solid rgb(228, 228, 228); padding-top: 8px; }
+.footer-menu .setting-menu { position: absolute; right: 0; width: 50%; height: 50px; text-align: center; background-color: rgb(250, 250, 250); color: rgb(117, 117, 117); border-left: 1px solid rgb(228, 228, 228); padding-top: 8px; }

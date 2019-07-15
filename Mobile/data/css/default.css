@@ -1,0 +1,38 @@
+/* default style */
+.database-menu .mobile-menu-icon { position: absolute; right: 30px; font-size: 2rem; color: rgb(38, 79, 155); }
+.database-menu .title { font-family: 'Nanum Gothic', sans-serif; font-size: 1.5rem;  }
+
+.database-screen .tab .table-delete { position: absolute; top: 20px; right: 5px; font-size: 2rem; color: rgb(155, 38, 38); }
+.database-screen .tab .table-setting { position: absolute; top: 20px; right: 45px; font-size: 2rem; color: rgb(192, 192, 192); }
+.database-screen .first-td-style { text-align: center; background-color: rgb(38, 79, 155); border: 1px solid rgb(38, 79, 155); font-size: .4rem; max-height: 11%; }
+.database-screen .search-first-td-style { padding: 5px; background-color: rgb(38, 79, 155); border: 1px solid rgb(38, 79, 155); color: #fff; font-size: .7rem; max-height: 11%; }
+.database-screen .search-data { padding: 5px; letter-spacing: 0em; }
+.database-screen .td-style { text-align: center; background-color: rgb(38, 79, 155); border: 1px solid rgb(38, 79, 155); font-size: .4rem; color: #fff;  max-height: 11%; }
+
+.create-table-form .form select,
+.create-table-form .data-form select { font-family: 'Nanum Gothic', sans-serif; background: none; width: 29%; font-size: 1.2rem; border: none; border-bottom: 2px solid rgb(38, 79, 155); padding: 5px; margin: 5px; }
+
+.create-table-form .form .input input[type="text"],
+.create-table-form .data-form .input input[type="text"],
+.create-table-form .form .input textarea,
+.create-table-form .data-form .input textarea,
+.create-table-form .form .input input[type="number"],
+.create-table-form .data-form .input input[type="number"] { width: 100%; padding: 10px 0px 10px 0px; border: 0; border-bottom: 2px solid rgb(38, 79, 155); font-size: 1rem; margin-bottom: 5px; font-family: 'Nanum Gothic', sans-serif; }
+
+.create-table-form .form .btn-create,
+.create-table-form .data-form .btn-create { position: absolute; right: 0; bottom: 0; background-color: rgb(38, 79, 155); text-align: center; padding: 20px 0 20px 0; font-family: 'Nanum Gothic', sans-serif; width: 50%; color: #fff; font-size: 1rem;  border: none; cursor: pointer; margin: 0; }
+
+.create-table-form .form .btn-cancle,
+.create-table-form .data-form .btn-cancle { position: absolute; left: 0; bottom: 0; background-color: rgb(155, 38, 38); text-align: center; padding: 20px 0 20px 0; font-family: 'Nanum Gothic', sans-serif; width: 50%; color: #fff; font-size: 1rem;  }
+
+.create-table-form .data-form .input span { font-family: 'Nanum Gothic', sans-serif; color: rgb(117, 117, 117);  font-size: .8rem; }
+
+.create-table-form .data-form .delete-data { position: absolute; top: 15px; right: 10px; color: rgb(192, 192, 192); }
+
+.create-table-form .form .title,
+.create-table-form .data-form .title { font-size: 1.2rem;  margin-bottom: 30px; }
+
+.create-table-form .form .input span,
+.create-table-form .data-form .input span { font-family: 'Nanum Gothic', sans-serif; color: rgb(117, 117, 117);  font-size: .8rem; }
+
+.create-icon { text-align: center; color: rgb(38, 79, 155); font-size: 3rem; }
